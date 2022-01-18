@@ -1,0 +1,175 @@
+.linewrapper {
+  height: 1000px;
+  width: 100%;
+  background-color: #E1ECF9;
+}
+
+.linewrapper2 {
+  height: 500px;
+  width: 100%;
+  background-color: #E1ECF9;
+}
+
+.parallax {
+  background-image: url("../src/profile.jpg");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 0;
+}
+
+.adButton {
+  text-align: center;
+  position: fixed;
+  top: 76%;
+  right: 3%;
+}
+
+.textwrapper {
+  background-color: rgba(35, 106, 185, 0.4);
+  color: #E1ECF9;
+  width: 275px;
+  position: absolute;
+  left: 55%;
+  top: 20%;
+  font-family: arial;
+}
+
+body {
+  background-color: #E1ECF9;
+}
+
+button {
+  font-family: arial;
+  background-color: #091D34;
+}
+
+.title {
+color: #091D34;
+font-size: 2em;
+text-align: center;
+}
+
+.top {
+  font-family: arial;
+  display: inline-block;
+  position: relative;
+  background-color: rgb(35, 106, 185);
+  width: 500px;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-left: 50%;
+  right: 20%;
+}
+
+.top img {
+  display: inline-block;
+  width: 100px;
+  position: absolute;
+  height: 100px;
+  border-radius: 50px;
+  top: 15%;
+  right: -115px;
+}
+
+.top a {
+  color: #E1ECF9;
+}
+
+.profilePic img {
+  width: 250px;
+  display: inline-block;
+  position: relative;
+  border-radius: 125px;
+  margin-left: 10%;
+  margin-bottom: 5%;
+}
+
+.top3I,
+.top3II,
+.top3III {
+  background: #E1ECF9;
+  width: 100px;
+  height: 100px;
+  transition: width 1s, height 1s;
+  display: inline-block;
+}
+
+.top3I img,
+.top3II img,
+.top3III img {
+  width: 100%;
+  height: 100%;
+}
+
+.top3I:hover,
+.top3II:hover,
+.top3III:hover {
+  box-shadow: 3px 3px 5px #133863;
+}
+
+.top3I:hover {
+  width: 150px;
+  height: 150px;
+}
+
+.top3II:hover,
+.top3III:hover {
+  width: 110px;
+  height: 110px;
+}
+
+.top3I {
+  top: 40%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+}
+
+.top3II {
+  top: 55%;
+  left: 45%;
+  position: absolute;
+  transform: translate(-100%, -50%);
+}
+
+.top3III {
+  top: 60%;
+  left: 55%;
+  position: absolute;
+  transform: translate(0%, -50%);
+  z-index: 2;
+}
+
+.topIText {
+  top: 21%;
+  left: 44%;
+}
+
+.topIIText {
+  top: 37%;
+  left: 35%;
+}
+
+.topIIIText {
+  top: 43%;
+  left: 53%;
+}
+
+.topIText,
+.topIIText,
+.topIIIText {
+  color: #091D34;
+  font-size: 2em;
+  text-align: center;
+  font-family: arial;
+  display: inline-block;
+  position: absolute;
+  background-color: rgb(35, 106, 185);
+  width: 150px;
+  padding-bottom: 150px;
+  z-index: 0;
+}

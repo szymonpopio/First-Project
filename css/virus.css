@@ -1,0 +1,13 @@
+.viruswrapper {
+  background-color: black;
+  height: 500px;
+}
+
+img {
+  width: 100%;
+  border-radius: 100px;
+}
+
+body {
+  background-color: black;
+}
